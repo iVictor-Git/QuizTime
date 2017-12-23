@@ -6,7 +6,9 @@ namespace QuizTime
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Quiz newQuiz = new Quiz();
+            newQuiz.Play();
+            Console.ReadLine();
         }
     }
 }
